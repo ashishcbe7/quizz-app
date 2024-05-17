@@ -2,7 +2,7 @@ import mysql.connector as my
 import random
 
 # Database connection
-conn = my.connect(host="localhost", user="root", password="123(ashish)@###", database="kumar")
+conn = my.connect(host="localhost", user="root", password="123(ashish)@###", database="quiz")
 cur = conn.cursor()
 
 username = ""
